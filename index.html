@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BelanjaBola</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+        <header>
+            <h1 class="first">Belanja</h1><h1 class="last">Bola</h1>
+            <nav>
+                <ul>
+                    <li style="float:right"><a class="menu" href="#unduh" style="text-decoration:none">UNDUH</a></li>
+                    <li style="float:right"><a class="menu"href="#produk" style="text-decoration:none">PRODUK</a></li>
+                    <li style="float:right"><a class="menu"href="#beranda" style="text-decoration:none">BERANDA</a></li>
+                </ul>
+            </nav>
+
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="font-family: 'Prompt', sans-serif;">x</a>
+                <a href="#beranda">Beranda</a>
+                <a href="#produk"">Produk</a>
+                <a href="#unduh">Unduh</a>
+            </div>
+            
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+
+        <div class="clear"></div>
+         </header>
+
+         <main>
+            <div id="content">
+                <article id="beranda">
+                    
+                    <img src="img/messi2.png" alt="beranda">
+                    <h2 class="utama">Lagi cari kostum bola<br> tapi takut kualitasnya jelek?</h2>
+                    <div class="clear"></div>
+                    <p class="covertext">Bro! kenalin nih, BelanjaBola. Aplikasi para kolektor maniak bola terlengkap di masa ini!
+                
+                    </p>
+                </article>
+      
+                <article id="produk">
+                    <h2>Ada apa aja sih di BelanjaBola?</h2>
+                    <div class="container">
+                        <div class="box">
+                            <p class="judulprdk">Jersey</p>
+                            <img src="img/baju.png" alt="Baju" style="max-height: 200px;">
+                            <p>Kami menjual berbagai macam koleksi jersey, dari liga Indonesia sampai Eropa! Semua koleksi retro sampai jersey terbaru masa kini.</p>
+                        </div>
+                        <div class="box">
+                            <p class="judulprdk">Sepatu Bola & Futsal</p>
+                            <img src="img/sepatu.png" alt="Sepatu" class="sepatu">
+                            <p>Ingin mencari koleksi sepatu yang edisi terbatas? Di sini pasti ada, dari sepatu futsal sampai sepatu bola rumput natural dan sintetis pun ada.</p>
+                        </div>
+                        <div class="box">
+                            <p class="judulprdk">Bola</p>
+                            <img src="img/bola.png" alt="Bola" style="max-width: 190px;">
+                            <p>Sulit mencari bola tertentu di toko online lain? Tenang, di sini kami jual berbagai macam bola dan juga berbagai ukuran.</p>
+                        </div>
+                    </div>
+                    <p class="tulisan">Ada juga acara lelang yang dinantikan para kolektor, yang diadakan khusus untuk kalian para pecinta bola! Nantikan juga giveaway yang berlangsung tiap bulannya! 
+                        Registrasi akunmu dan coba kesempatan memenangkan koleksi edisi terbatas! </p>
+                </article>
+                <div class="clear"></div>
+                <article id="unduh">
+                    <h2>Unduh Aplikasi</h2>
+                    <img src="img/bb.png" alt="Unduh" class="imgunduh">
+                    <h2 class="unduhan">Tunggu apa lagi?<br> download langsung dari <br>app store-mu sekarang!</h2>
+                    <div onclick="alert('Mohon maaf, file .Apk belum tersedia')"class="boxunduh">DOWNLOAD .APK</div>
+                    <div class="nbunduh">Gunakan file .APK jika tidak ditemukan di App Store</div>
+                    
+                </article>
+            </div>
+        
+            <div class="clear"></div>
+            <aside>
+                <article class="card">
+                    <h2>Tentang Saya</h2>
+                    
+                    <figure>
+                        <img src="img/pp.jpg" class="foto" alt="Alnov">
+                        
+                    </figure>
+                    <p class="info">Muhammad Alnov Ceisar</p>
+                    <p class="subinfo">Pria yang lahir di Jakarta, 4 November 1997. Menyukai sepakbola, animanga dan desain.</p>
+                    <p class="info">Kontak:</p>
+                    <p class="kontak">Email    :   alnovceisar@gmail.com</p>
+                    <p class="kontak">Facebook    :   <a href="https://www.facebook.com/alnovceisar" target="_blank">Alnov Ceisar</a></p>
+                    <p class="kontak">No.    :   082211483459</p>
+                </article>
+            </aside>
+            <div class="clear"></div>
+        </main>
+
+         <footer>
+            &copy; Muhammad Alnov Ceisar, 2021
+         </footer>
+
+         <script src="belanjabola.js"></script>
+</body>
+</html>
